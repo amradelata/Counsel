@@ -9,7 +9,8 @@ body,html
 {
 	padding:0;
 	margin:0;
-	font-family: 'Lato', sans-serif; 
+	font-family: 'Lato', sans-serif;
+	height: 4000px; 
 }
 
 .navbar
@@ -58,7 +59,7 @@ body,html
 
 .header
 {
-	background-image: url('../img/first part/1.png'); 
+	/*background-image: url('../img/first part/1.png'); */
 	height: 100vh;
 	background-size: cover; 
 	position: relative;
@@ -81,7 +82,7 @@ body,html
 	right: 25%;
 	top: 36%;
 }
-.header p
+ h3
 {
 	color: #fde428;
 	font-size: 15px;
@@ -89,7 +90,7 @@ body,html
 	width: 100px;
 	position: absolute;
 	right: 25%;
-	top: 60%;
+	top: 58%;
 }
 .header img
 {
@@ -97,4 +98,113 @@ body,html
 	right: 20%;
 	top: 50%;
 	transform: translate(50%,-50%);
+}
+
+/*take-away*/
+.take-away
+{
+	height: 50vh;
+	margin-top: 50px;
+	margin-bottom: 50px;
+/*	background: #ccc;*/
+}
+.content
+{
+	padding-top: 70px;
+}
+.content h1
+{
+	color:#002e5b;
+	margin-left: 10px; 
+}
+.content p
+{
+	margin-top: 20px;
+	font-size: 20px;
+	color: #808080;
+}
+.content span
+{
+	margin-top: 50px;
+	color:#333333;
+}
+.content .button
+{
+	color:#002e5b;
+	margin-top: 20px;
+	border-bottom: 2px solid #002e5b;
+	width: 100px;
+}
+.box
+{
+	margin-top: -50px;
+	position: relative;	
+	background: #fff;
+	height: 100%;
+}
+.box .yellow
+{	background: #fde428;
+	height: 160%;
+	width: 50%;	
+	margin-left: 25%;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.box .img
+{
+	position: absolute;
+	height: 60%;
+	background: #a1a1a1;
+	z-index: 10;
+	width: 400px;
+    top: 30%;
+    left: 15%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+/*Constructingthe*/
+
+
+.Constructingthe
+{
+	position: relative;
+	height: 50vh;
+	background: #f4f4f4;
+	z-index: 1
+}
+.Constructingthe img
+{
+	position: absolute;
+	left: 35%;
+	width: 50%;
+/*	float: left;
+	background: #f00;
+*/
+}
+/*Construc*/
+
+.Construc
+{
+	background: #002e5b;
+	height: 10vh;
+}
+
+.Construc span
+{
+	color: #fff;
+
+}
+.looking-fot
+{
+	padding: 25px 10px;
+}
+.Construc button
+{
+    float: right;
+    background: #fde428;
+    color: #002e5b;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 23px;
+    font-weight: bold;
 }
