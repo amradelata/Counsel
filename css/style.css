@@ -59,7 +59,7 @@ body,html
 
 .header
 {
-	/*background-image: url('../img/first part/1.png'); */
+	background-image: url('../img/first part/1.png'); 
 	height: 100vh;
 	background-size: cover; 
 	position: relative;
@@ -207,4 +207,138 @@ body,html
     border-radius: 10px;
     padding: 12px 23px;
     font-weight: bold;
+}
+
+
+/*Popular Services*/
+.Popular h2
+{
+	font-size: 30px;
+	margin-bottom: 30px;
+	margin-top: 100px;
+}
+.Popular h4
+{
+	margin-bottom: 30px;
+    font-size: 20px;
+    color: #b8bec8;
+}
+.box1
+{
+	background: #69d2e7;
+	height:150px;
+	margin-right: 150px;
+}
+
+.box2
+{
+	background: #add478;
+	height:150px;
+	margin-right: 100px;
+}
+
+.box3
+{
+	background: #f49f77;
+	height:150px;
+}
+
+.Popular h1
+{
+	color: #001c37;
+	font-size: 26px;
+	text-align: left;
+}
+
+.Popular .content1
+{
+    margin-right: 153px;
+    margin-left: -16px;
+}
+.Popular .content2
+{
+	margin-right: 106px;
+}
+
+/*statistics*/
+
+.statistics
+{
+	margin-top: 100px;
+	height: 30vh;
+	background: #001c37;
+	text-align: center;
+}
+.statistics .column p
+{
+	color: #fff;
+	font-size: 50px;
+
+}
+.statistics .column span
+{
+	font-size: 20px;
+	color: #b8bec8;
+}
+
+
+/*weBest*/
+
+.weBest
+{
+	height: 50vh;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.content
+{
+	padding-top: 70px;
+}
+.content h1
+{
+	color:#002e5b;
+	margin-left: 10px; 
+}
+.content p
+{
+	margin-top: 20px;
+	font-size: 20px;
+	color: #808080;
+}
+.content span
+{
+	margin-top: 50px;
+	color:#333333;
+}
+.content .button
+{
+	color:#002e5b;
+	margin-top: 20px;
+	border-bottom: 2px solid #002e5b;
+	width: 100px;
+}
+.box
+{
+	margin-top: -50px;
+	position: relative;	
+	background: #fff;
+	height: 100%;
+}
+.box .yellow
+{	background: #fde428;
+	height: 160%;
+	width: 50%;	
+	margin-left: 25%;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.box .video
+{
+	position: absolute;
+	height: 60%;
+	background: #001c37;
+	z-index: 10;
+	width: 400px;
+    top: 30%;
+    left: 15%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
