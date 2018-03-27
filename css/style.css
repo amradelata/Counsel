@@ -10,7 +10,6 @@ body,html
 	padding:0;
 	margin:0;
 	font-family: 'Lato', sans-serif;
-	height: 4000px; 
 }
 
 .navbar
@@ -151,13 +150,13 @@ body,html
 }
 .box .img
 {
-	position: absolute;
-	height: 60%;
-	background: #a1a1a1;
-	z-index: 10;
-	width: 400px;
+    position: absolute;
+    height: 60%;
+    background: #a1a1a1;
+    z-index: 10;
+    width: 500px;
     top: 30%;
-    left: 15%;
+    left: 6%;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
@@ -316,6 +315,7 @@ body,html
 	margin-top: 20px;
 	border-bottom: 2px solid #002e5b;
 	width: 100px;
+	font-weight: bold;
 }
 .box
 {
@@ -341,4 +341,145 @@ body,html
     top: 30%;
     left: 15%;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+/*author*/
+
+#author
+{
+	position: relative;
+	/*z-index: 10;*/
+	height: 60vh;
+	background: #001c37;
+	padding: 50px;
+	text-align: center;
+}
+
+.carousel-inner .item h5
+{
+	color: #fff;
+	font-size: 100px;
+	font-size:20px;
+	line-height: 50px;
+	margin-bottom: 100px;
+}
+.carousel-inner .item h4
+{
+	color: #fff;
+}
+.carousel-inner .item span
+{
+	color: #fff;
+	font-size: 80px;
+}
+
+/*contact-us*/
+
+.contact-us
+{
+
+}
+
+.contact-us h2
+{
+	font-size: 30px;
+	margin-bottom: 30px;
+	margin-top: 100px;
+}
+.contact-us h4
+{
+	margin-bottom: 30px;
+    font-size: 20px;
+    color: #b8bec8;
+}
+.box1
+{
+	background-image:url('../img/graph/3.png');
+	background-size:cover; 
+	height:200px;
+	margin-right: 150px;
+}
+
+.box2
+{
+	background-image:url('../img/graph/3.png');
+	background-size:cover; 
+	height:200px;
+	margin-right: 100px;
+}
+
+.box3
+{
+	background-image:url('../img/graph/3.png');
+	background-size:cover; 
+	height:200px;
+}
+
+.contact-us h1
+{
+	color: #001c37;
+	font-size: 26px;
+	text-align: left;
+}
+
+.contact-us .content1
+{
+    margin-right: 153px;
+    margin-left: -16px;
+}
+.contact-us .content2
+{
+	margin-right: 106px;
+}
+.contact-us h1
+{
+	margin-bottom: 35px;
+	color: #002e5b;
+	font-size: 20px;
+}
+.content1 .information1 span,
+.content2 .information1 span,
+.content3 .information1 span
+{
+	display: inline-block;
+	float: left;
+	color: #002e5b;
+}
+.content1 .information1 p,
+.content2 .information1 p,
+.content3 .information1 p
+{
+
+margin-bottom: 30px;
+color: #002e5b;
+text-align: center;
+}
+
+/*footer*/
+
+.footer
+{
+	margin-top: 150px;
+	height: 10vh;
+	background:#001c37; 
+}
+.inside-footer
+{
+	padding: 30px;
+}
+.footer p
+{
+	color:#fff;
+	font-size: 18px;
+	display: inline-block;
+}
+.footer span
+{
+	color: #b6ab41;
+}
+.footer .inside-footer .glyphicon
+{
+	color:#fff;
+	float: right;
+	margin-right: 10px;
 }
