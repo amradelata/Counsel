@@ -263,11 +263,16 @@ body,html
 
 .statistics
 {
-	margin-top: 100px;
-	height: 30vh;
+/*	margin-top: 100px;
+	height: 30vh;*/
 	background: #001c37;
 	text-align: center;
+	padding:80px;
 }
+.statistics .column
+{
+margin-bottom: 50px; 
+ }
 .statistics .column p
 {
 	color: #fff;
@@ -317,21 +322,21 @@ body,html
 	width: 100px;
 	font-weight: bold;
 }
-.box
+.box-
 {
 	margin-top: -50px;
 	position: relative;	
 	background: #fff;
 	height: 100%;
 }
-.box .yellow
+.box- .yellow
 {	background: #fde428;
 	height: 160%;
 	width: 50%;	
 	margin-left: 25%;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-.box .video
+.box- .video
 {
 	position: absolute;
 	height: 60%;
@@ -348,10 +353,8 @@ body,html
 #author
 {
 	position: relative;
-	/*z-index: 10;*/
-	height: 60vh;
 	background: #001c37;
-	padding: 50px;
+	/*padding: 50px;*/
 	text-align: center;
 }
 
@@ -392,7 +395,7 @@ body,html
     font-size: 20px;
     color: #b8bec8;
 }
-.box1
+.map1
 {
 	background-image:url('../img/graph/3.png');
 	background-size:cover; 
@@ -400,7 +403,7 @@ body,html
 	margin-right: 150px;
 }
 
-.box2
+.map2
 {
 	background-image:url('../img/graph/3.png');
 	background-size:cover; 
@@ -408,7 +411,7 @@ body,html
 	margin-right: 100px;
 }
 
-.box3
+.map3
 {
 	background-image:url('../img/graph/3.png');
 	background-size:cover; 
@@ -460,7 +463,7 @@ text-align: center;
 .footer
 {
 	margin-top: 150px;
-	height: 10vh;
+	/*height: 10vh;*/
 	background:#001c37; 
 }
 .inside-footer
@@ -472,6 +475,7 @@ text-align: center;
 	color:#fff;
 	font-size: 18px;
 	display: inline-block;
+	margin-left: 10px;
 }
 .footer span
 {
@@ -483,3 +487,187 @@ text-align: center;
 	float: right;
 	margin-right: 10px;
 }
+/*Media Query*/
+@media(max-width: 768px)
+{
+.navbar-default
+{
+	display: none;
+}
+.header img
+{
+right: 50%;	
+}
+.header h3
+{
+right: 35%;	
+}
+/*content*/
+.content
+{
+    padding-top: 300px;
+}
+.box
+{
+    background: transparent;
+    top: -262%;
+}
+.box .img
+{
+	top: 11%;
+    left: 0%;
+    width: 100%;
+}
+.box .yellow
+{
+ height: 86%;
+}
+/*content*/
+.Constructingthe
+{
+   /*margin-top: 800px;*/
+   background: transparent;
+}
+.Constructingthe img
+{
+    left: 2%;
+    width: 95%;
+    margin-top: -170px;
+}
+.content
+{
+	padding-top: 200px;
+}
+.Construc
+{
+margin-top: 1250px;
+position: relative;
+}
+.Construc span
+{
+	top: 0;
+}
+.looking-fot
+{
+    padding: 7px 10px;
+    text-align: center;
+}
+.Construc button
+{
+    margin-top: 50px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+}
+/*Popular */
+.Popular 
+{
+	position: relative;
+	top: 10%;
+}
+.Popular .content1,
+.Popular .content2,
+.Popular .content3
+{
+	margin: 0;
+}
+.Popular .content1
+{
+	position: absolute;
+	top: 513px;
+}
+.Popular .content2
+{
+	position: absolute;
+	top: 855px;
+}
+.Popular .content3
+{
+	position: absolute;
+	top: 1195px;
+}
+.box1,
+.box2,
+.box3,
+.map1,
+.map2,
+.map3
+{
+	width: 100%;
+    margin-bottom:200px; 
+}
+/*weBest*/
+.weBest .content-
+{
+	margin-top: 50px;
+}
+.box- .yellow
+{
+    height: 100%;
+}
+.box- .video
+{
+    width: 100%;
+    top: 20%;
+    left: 0%;
+}
+.statistics
+{
+    margin-top:0;
+}
+#author
+{
+	/*display: none;*/
+    margin-top: 500px;
+}
+.carousel-inner .item h5
+{
+    font-size: 10px;	
+}
+.carousel-inner .item h4
+{
+margin-bottom: 50px;	
+}
+.contact-us
+{
+	margin: 0;
+	position: relative;
+}
+.map1,
+.map2,
+.map3
+{
+margin-bottom: 255px;	
+}
+.contact-us .content1
+{
+position: absolute;
+top: 470px;
+margin-left: 0px;
+}
+.contact-us .content2
+{
+position: absolute;
+top: 915px;
+margin-left: 0px;
+}
+.contact-us .content3
+{
+position: absolute;
+top: 1372px;
+margin-left: 0px;
+}
+.footer p
+{
+	margin-left: -25px;
+}
+}
+/*end*/
+/*@media(max-width: 768px)*/
+
+/*@media only screen and (min-width: 768px) and (max-width: 1023px)
+{
+.navbar-default
+{
+	display: none;
+}
+}*/
