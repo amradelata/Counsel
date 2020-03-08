@@ -453,5 +453,17 @@ position: relative;
 	/*display: none;*/
     margin-top: 500px;
 }
+.navbar-default .navbar-nav>li>a:focus{
+	color: #fff;
+	background-color: #464637;
+}
+.Construc button {
+    margin-top: 0;
+    margin-right: 0;
+}
+.Construc button{
+	float: none;
+	margin-top: 100px;
+}
 }
 /*end*/
