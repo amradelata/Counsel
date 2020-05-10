@@ -4,6 +4,7 @@ body,html
 {
 	padding:0;
 	margin:0;
+	overflow-x: hidden;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -339,16 +340,64 @@ margin-top: 35px;
 	float: right;
 	margin-right: 10px;
 }
+
+
+/* popup*/
+    .mypopup {
+  display: none;
+  text-align: center;
+  background: #fff;
+  position: fixed;
+  z-index: 999999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 35px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.mypopup img {
+  width: 350px;
+}
+.mypopup button {
+  /* display: block; */
+  margin: 20px auto;
+  border: none;
+  padding: 10px;
+  background: #2f3640;
+  color: aliceblue;
+}
+.mypopup button a {
+  color: aliceblue;
+}
+    /* popup*/
+
 /* Small devices (tablets, 768px and up) */
-@media(max-width: 768px)
+@media(max-width: 500px)
 {
+
+
+
+	   /* popup*/
+  .mypopup img{
+    width: 200px;
+  }
+    .mypopup {
+    width: 100%;
+  }
+  .mypopup button {
+    font-size: 15px !important;
+  }
+  /* popup*/
 /*.navbar-default
 {
 	display: none;
 }*/
 .header img
 {
-right: 50%;	
+/* right: 50%;	 */
+top: 50%;
+left:50%;
+transform: translate(-50% , -50%);
 }
 .header h3
 {
@@ -467,3 +516,98 @@ position: relative;
 }
 }
 /*end*/
+@media(min-width: 767px) and (max-width: 851px){
+		.Construc{
+		display: none;
+
+	}
+	.Construc button{
+		margin-top: 100px;
+		margin: auto;
+	}
+}
+@media(min-width: 501px) and (max-width: 850px)
+{
+
+	.Construc{
+		display: grid;
+
+	}
+	.Construc button{
+		margin-top: 100px;
+	}
+
+.header img
+{
+right: 50%;	
+}
+.box-{
+	margin-top: 0;
+}
+
+}
+
+@media(min-width: 501px) and (max-width: 1000px)
+{
+.weBest .content{
+	text-align: left;
+	margin-top: 120px;
+}
+	#author{
+		margin-top: 400px;
+	}
+	.col-sm-6{
+		width: 100%;
+	}
+.box- .video{
+    width: 100%;
+    left: 0%;
+}
+.crosedev{
+	/* margin: 100px  0; */
+}
+
+.graph{
+	/* display: none; */
+	display: block;
+	text-align: center;
+}
+/* .graph img{
+	margin: 100px 0;
+	vertical-align: middle;
+} */
+ .content {
+	display: block;
+	width: 100%;
+	text-align: center;
+	/* display: none; */
+}
+.header img,
+.header h1
+
+{
+/* right: 50%;	 */
+top: 50%;
+left:50%;
+transform: translate(-50% , -50%);
+}
+	.header h3{
+	top: 60%;
+	left:50%;
+	transform: translate(-50% , -50%);
+	}
+}
+
+
+@media(min-width: 1001px) and (max-width: 1200px){
+	.graphright{
+		/* display: none; */
+		font-size: small;
+		padding-left: 45px;
+	}
+}
+
+.graph img{
+	width: 100%;
+	margin: 50px 0;
+}
